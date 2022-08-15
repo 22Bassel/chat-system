@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Plain WebSocket Example</title>
+  <th:block th:include="common.html :: headerfiles"></th:block>
+  <script src="/app.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="navbar-nav ml-auto">
+    <form class="form-inline" th:action="@{/logout}" method="post">
+      <button type="submit" class="btn btn-primary">Logout</button>
+    </form>
+  </div>
+  <div class="py-5 text-center">
+    <h2>Basic Web socket</h2>
+    <p th:utext="'User : '+ ${username}" class="lead"></p>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row mb-3">
+        <div class="input-group">
+          Web socket connection:&nbsp;
+          <div class="btn-group">
+            <button type="button" id="connect" class="btn btn-sm btn-outline-secondary" onclick="connect()">Connect</button>
+            <button type="button" id="disconnect" class="btn btn-sm btn-outline-secondary" onclick="disconnect()" disabled>Disconnect</button>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="input-group" id="sendmessage" style="display: none;">
+          <input type="text" id="message" class="form-control" placeholder="Message">
+          <div class="input-group-append">
+            <button id="send" class="btn btn-primary" onclick="send()">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div id="content"></div>
+    </div>
+  </div>
+</div>
+
+<footer th:insert="common.html :: footer"></footer>
+
+
+</body>
+</html>
