@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1704f65-1dd4-4613-b3e8-be2b983516d2" name="Default Changelist" comment="" />
+    <list default="true" id="e1704f65-1dd4-4613-b3e8-be2b983516d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/first/project/RunAfterStartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/first/project/RunAfterStartUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/ws-broadcast.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/ws-broadcast.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="project/invalid/Spring" />
@@ -31,6 +39,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1kc4djLDKeeWn8BKqDezGXZMYAm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

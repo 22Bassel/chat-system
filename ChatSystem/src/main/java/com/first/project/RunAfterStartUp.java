@@ -14,7 +14,8 @@ public class RunAfterStartUp{
 
     @EventListener(ApplicationReadyEvent.class)
     public void run(){
-        
+
         users_repository.deleteAll();
+        System.out.println("DB is empty now !! ");
     }
 }
